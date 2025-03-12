@@ -1,7 +1,6 @@
 # Capstone_Project
-<<<<<<< HEAD
 
-=======
+
 # About
 A fun and interactive chore tracking web app that includes a reward system, customizable themes, and a countdown timer.
 
@@ -45,4 +44,4 @@ GitHub: github.com/Cwalker333184
 * https://www.youtube.com/
 * https://www.w3schools.com/
 * https://developer.mozilla.org/en-US/
->>>>>>> d47472bd951b44fd514e62c5ff4b475dea521659
+
