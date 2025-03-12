@@ -28,6 +28,7 @@ Want to improve this project?
 - [x] Custom Rewards
 
 # Wireframe
+![Image](https://github.com/user-attachments/assets/6955146b-a85d-4e04-8daf-fe162877a074)
 
 ## Contact
 Created by: Caressa Simon
