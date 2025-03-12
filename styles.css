@@ -1,0 +1,188 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    padding: 20px;
+    background: #f0f0f0 url('your-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: black;
+    transition: background-color 0.3s ease-in-out, background-image 0.3s ease-in-out;
+}
+
+/* Dark Mode Styling */
+body.dark-mode {
+    background: #333 url('your-dark-mode-image.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
+}
+
+/* Header Styling */
+h1 {
+    font-size: 2.5rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+}
+
+/* Chore Container */
+#chore-container, select {
+    background: white; /* Containers and dropdown menus stay white */
+    padding: 20px;
+    margin: 20px auto;
+    width: 60%;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    color: #333;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Dark Mode: Ensure container is white */
+body.dark-mode #chore-container,
+body.dark-mode select {
+    background: white;
+    color: black;
+}
+
+/* Input Fields */
+input {
+    width: 60%;
+    padding: 12px;
+    margin: 10px;
+    font-size: 16px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    border-color: #8400d1;
+}
+
+/* Button Styles */
+button {
+    font-size: 16px;
+    padding: 12px;
+    margin: 10px;
+    border-radius: 6px;
+    border: 1px solid #8400d1;
+    background-color: #fff;
+    color: black;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+button:hover {
+    background-color: #9d67c0;
+    transform: scale(1.05);
+}
+
+/* Dark Mode Buttons */
+body.dark-mode button {
+    background-color: #8400d1;
+    color: white;
+}
+
+body.dark-mode button:hover {
+    background-color: #9d67c0;
+}
+
+/* Reset Button */
+#resetButton {
+    background-color: red;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+/* Reset Button in Dark Mode */
+body.dark-mode #resetButton {
+    background-color: #8400d1;
+}
+
+body.dark-mode #resetButton:hover {
+    background-color: #9d67c0;
+}
+
+/* Progress Bar */
+#progressContainer {
+    width: 100%;
+    background-color: #f3f3f3;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 10px;
+}
+
+#progressBar {
+    width: 0;
+    height: 20px;
+    background-color: rgb(86, 3, 97);
+    transition: width 0.3s ease;
+}
+
+body.dark-mode #progressContainer {
+    background-color: #555;
+}
+
+body.dark-mode #progressBar {
+    background-color: rgb(86, 3, 97);
+}
+
+/* Table Styling */
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+
+/* Ensure the table, headers, and cells are white in dark mode */
+body.dark-mode table,
+body.dark-mode th,
+body.dark-mode td {
+    background-color: white !important;
+    color: black !important;
+    border: 1px solid #ccc !important;
+}
+
+/* Optional: Slight gray background for headers */
+body.dark-mode th {
+    background-color: #f9f9f9 !important;
+    font-weight: bold;
+}
+
+body.dark-mode td {
+    background-color: #ffffff !important;
+}
+
+/* Ensure border color is visible */
+body.dark-mode table,
+body.dark-mode th,
+body.dark-mode td {
+    border: 1px solid #ccc !important;
+}
+
+/* List Styling */
+ul.list-group {
+    max-width: 80%;
+    margin: 20px auto;
+    padding: 0;
+}
+
+.list-group-item {
+    border-radius: 6px;
+    background-color: #f9f9f9;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 12px;
+}
+
+/* Make list items white in dark mode */
+body.dark-mode .list-group-item {
+    background-color: white !important;
+    color: black !important;
+}
+
+/* Styling for Alerts */
+.alert {
+    font-size: 16px;
+    margin-top: 20px;
+}
